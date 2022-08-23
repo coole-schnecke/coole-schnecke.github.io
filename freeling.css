@@ -8,6 +8,14 @@
     margin-bottom: 8px;
     text-decoration: none;
 }
+.copyright{
+    color: white;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 0;
+    text-align: center;
+    font-size: 12px;
+}
 #alleBegriffe{
     padding: 10px;
 }
