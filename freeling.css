@@ -1,5 +1,5 @@
 .begriffeMenueleiste{
-    display: inline-block;
+    display: block;
     font-size: 15.5px;
     vertical-align: top;
     padding: 0;
@@ -70,6 +70,7 @@ body{
     color: white;
     margin: auto;
     font-weight: 200;
+    padding-bottom: 5px;
 }
 .linksUnten{
     font-size: 14px;
@@ -80,6 +81,13 @@ body{
 .linksUnten:hover{
     text-decoration: underline;
     color:white;
+}
+.linieUnten{
+    border-top: 1px solid white;
+    padding: 0;
+    margin: auto;
+    margin-bottom: 5px;
+    width: 60px;
 }
 a{
     text-decoration: underline;
@@ -93,11 +101,42 @@ hr{
     margin-bottom: 24px;
     padding-bottom: 2px;
 }
+.paddingGross{
+    padding-bottom: 20px;
+}
+.panndingKlein{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.paraSpiegelstrich{
+    padding: 0;
+    margin: 0;
+    margin-right: 3px;
+    display: inline-block;
+    vertical-align: top;
+}
+.paraPunkt{
+    padding: 0;
+    display: inline-block;
+    margin: 0;
+}
+.divPunkt{
+    padding: 0;
+    display: inline-block;
+    margin: 0;
+    max-width: calc(85vmin - 15px);
+    text-align: left;
+}
+.einPunkt{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
 p{
     font-size: 14px;
-    line-height: 26px;
+    line-height: 20px;
     color: black;
-    text-align: justify;
+    text-align: left;
     margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
