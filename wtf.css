@@ -55,6 +55,7 @@ hr{
 }
 a{
     color: white;
+    font-size: 14px;
 }
 .logo{
     height: 20vh;
@@ -81,6 +82,7 @@ body{
     margin-right: 9px;
     margin-bottom: 8px;
     text-decoration: none;
+    text-align: center;
 }
 .copyright{
     text-transform: uppercase;
