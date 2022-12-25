@@ -1,0 +1,134 @@
+html::before {
+    content: ' ';
+    display: block;
+    background-image: url('hintergrund.png');
+    background-position: center;
+    background-size: cover;
+    height: 100vh; width: 100vw;
+    top: 0; bottom: 0; left: 0; right: 0;
+    position: fixed;
+    z-index: -10;
+}
+.footer{
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+img{
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.heading{
+    width: 80%;
+    margin: auto;
+}
+.main{
+    width: 85vmin;
+    min-width: 50%;
+    margin: auto;
+    padding-bottom: 40px;
+    text-align: center;
+}
+p{
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+hr{
+    width: 90vw;
+    background-color: white;
+    height: 0;
+    border: none;
+    margin-bottom: 24px;
+    padding-bottom: 2px;
+}
+.linksUnten:hover{
+    text-decoration: underline;
+    color:white;
+}
+a{
+    color: white;
+}
+.logo{
+    height: 20vh;
+    max-height: 175px;
+    min-height: 100px;
+    width: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    display: block;
+    margin: 0 auto;
+}
+body{
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    color: white;
+}
+.begriffeMenueleiste{
+    display: block;
+    font-size: 15.5px;
+    padding: 0;
+    margin-left: 9px;
+    margin-right: 9px;
+    margin-bottom: 8px;
+    text-decoration: none;
+}
+.copyright{
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 0;
+    text-align: center;
+    font-size: 12px;
+}
+.menueleiste{
+    text-align: center;
+    text-transform: uppercase;
+}
+.alleBegriffe{
+    padding: 10px;
+}
+.gruppeUnten{
+    text-align: center;
+    margin: auto;
+    display: block;
+    padding: 15px;
+}
+.textUnten{
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+    margin: auto;
+    font-weight: 200;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.linksUnten{
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration: none;
+}
+h2{
+    font-size: 22.5px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+h3{
+    font-size: 17.5px;
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 15px;
+    font-weight: bold;
+    padding-bottom: 0;
+    margin: 0;
+}
