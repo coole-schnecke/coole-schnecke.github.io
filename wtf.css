@@ -58,9 +58,9 @@ a{
     font-size: 14px;
 }
 .logo{
-    height: 20vh;
-    max-height: 175px;
-    min-height: 100px;
+    height: 20vmin;
+    max-height: 200px;
+    min-height: 135px;
     width: auto;
     padding-left: 5px;
     padding-right: 5px;
@@ -73,6 +73,9 @@ body{
     font-family: "Arial", sans-serif;
     margin: 0;
     color: white;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: 100%;
 }
 .begriffeMenueleiste{
     display: block;
