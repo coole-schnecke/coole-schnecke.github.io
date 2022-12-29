@@ -1,7 +1,7 @@
 html::before {
     content: ' ';
     display: block;
-    background-image: url('hintergrund.png');
+    background-image: url('hintergrund1.png');
     background-position: center;
     background-size: cover;
     height: 100vh; width: 100vw;
