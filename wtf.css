@@ -12,6 +12,13 @@ html::before {
 .mitte{
     text-align: center;
 }
+fieldset{
+    text-align: left;
+    font-size: 18px;
+}
+.kursiv{
+    font-style: italic;
+}
 .footer{
     background-color: rgba(0, 0, 0, 0.6);
     margin: 0 auto;
@@ -31,6 +38,10 @@ img{
     min-width: 50%;
     margin: auto;
     padding-bottom: 40px;
+    text-align: center;
+}
+.songteil{
+    margin: auto;
     text-align: center;
 }
 p{
