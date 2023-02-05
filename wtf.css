@@ -9,8 +9,31 @@ html::before {
     position: fixed;
     z-index: -10;
 }
+/*.showfoto_mitte{
+    width: 27vmin;
+    height:auto;
+    margin-left: 1vmin;
+    margin-right: 1vmin;
+    margin-top: 1vmin;
+    margin-bottom: 1vmin;
+    padding: 0;
+    display: inline-block;
+    text-align: left;
+}*/
+.showfoto{
+    width: 31%;
+    height: auto;
+    margin: 0.5%;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: inline-block;
+    text-align: left;
+}
 .mitte{
     text-align: center;
+}
+.links{
+    text-align: left;
 }
 fieldset{
     text-align: left;
@@ -43,6 +66,10 @@ img{
 .songteil{
     margin: auto;
     text-align: center;
+}
+.klammern{
+    margin: auto;
+    text-align: left;
 }
 p{
     font-size: 14px;
