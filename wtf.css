@@ -29,6 +29,10 @@ html::before {
     display: inline-block;
     text-align: left;
 }
+.img_klein{ 
+    width: auto;
+    max-height: 100vmin;
+}
 .mitte{
     text-align: center;
 }
