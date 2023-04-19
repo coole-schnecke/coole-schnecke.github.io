@@ -9,17 +9,6 @@ html::before {
     position: fixed;
     z-index: -10;
 }
-/*.showfoto_mitte{
-    width: 27vmin;
-    height:auto;
-    margin-left: 1vmin;
-    margin-right: 1vmin;
-    margin-top: 1vmin;
-    margin-bottom: 1vmin;
-    padding: 0;
-    display: inline-block;
-    text-align: left;
-}*/
 .showfoto{
     width: 31%;
     height: auto;
@@ -28,6 +17,12 @@ html::before {
     padding-bottom: 0;
     display: inline-block;
     text-align: left;
+}
+.halbgroß{
+    width: 49%;
+    display: inline-block;
+    height: auto;
+    margin: auto;
 }
 .img_klein{ 
     width: auto;
