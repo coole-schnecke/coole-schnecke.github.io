@@ -99,6 +99,7 @@ hr{
 a{
     color: white;
     font-size: 14px;
+    text-decoration: none;
 }
 .logo{
     height: 20vmin;
@@ -241,6 +242,7 @@ button{
     text-transform: uppercase;
     font-size: 13px;
     letter-spacing: 2px;
+    display: block;
 }
 .pfeil{
     height: 12px;
