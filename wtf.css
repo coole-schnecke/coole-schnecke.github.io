@@ -30,6 +30,10 @@ html::before {
     height: auto;
     margin: auto;
 }
+.plakattest{
+    height: 60vh;
+    width: auto;
+}
 .img_klein{ 
     width: auto;
     max-height: 100vmin;
@@ -79,7 +83,7 @@ img{
 p{
     font-size: 14px;
     line-height: 20px;
-    text-align: left;
+    text-align: justify;
     margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
