@@ -30,9 +30,10 @@ html::before {
     height: auto;
     margin: auto;
 }
-.plakattest{
-    height: 60vh;
-    width: auto;
+.plakat{
+    width: 80vw;
+    max-width: 75vh;
+    height: auto;
 }
 .img_klein{ 
     width: auto;
