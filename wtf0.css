@@ -231,7 +231,7 @@ h2{
     margin: auto;
 }
 h3{
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     font-weight: 200;
     text-transform: uppercase;
@@ -290,4 +290,12 @@ button{
 }
 .cover{
     width: 50%;
+}
+.presse{
+    text-align: left;
+    display: block;
+}
+.presse:hover{
+    text-decoration: underline;
+    color:rgb(250, 249, 245);
 }
