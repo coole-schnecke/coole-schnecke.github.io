@@ -299,3 +299,6 @@ button{
     text-decoration: underline;
     color:rgb(250, 249, 245);
 }
+.center{
+    text-align: center;
+}
