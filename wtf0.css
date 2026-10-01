@@ -302,3 +302,24 @@ button{
 .center{
     text-align: center;
 }
+#icon_youtube{
+    display: inline-block;
+    width: 100px;
+    height: auto;
+    padding-left: 5px;
+    padding-right: 5px
+}
+#icon_instagram{
+    display: inline-block;
+    width: 50px;
+    height: auto;
+    padding-left: 5px;
+    padding-right: 5px
+}
+#icon_spotify{
+    display: inline-block;
+    width: 50px;
+    height: auto;
+    padding-left: 5px;
+    padding-right: 5px
+}
