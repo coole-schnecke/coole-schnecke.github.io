@@ -345,7 +345,6 @@ audio{
     width: 40vh;
     margin: 1vh;
     background: rgba(170, 0, 26, 0.8);
-    border-radius: 15px;
     padding-bottom: 10px;
     margin-top: 0;
 }
