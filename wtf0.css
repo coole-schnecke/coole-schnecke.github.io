@@ -302,24 +302,41 @@ button{
 .center{
     text-align: center;
 }
-#icon_youtube{
+.icon{
     display: inline-block;
-    width: 100px;
-    height: auto;
-    padding-left: 5px;
-    padding-right: 5px
+    height: 45px;
+    width: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    transition: all 0.25s ease-in-out;
 }
-#icon_instagram{
-    display: inline-block;
-    width: 50px;
-    height: auto;
-    padding-left: 5px;
-    padding-right: 5px
+.icon:hover{
+    scale: 1.05;
 }
-#icon_spotify{
+.halb{
     display: inline-block;
-    width: 50px;
-    height: auto;
-    padding-left: 5px;
-    padding-right: 5px
+    margin: 10px;
+    height: 150px;
+}
+.rand{
+    border-color: black;
+    border-style: solid;
+    
+}
+audio{
+    width: 40vh;
+    margin-bottom: 5px;
+}
+
+.player{
+    display: inline-block;
+    width: 45vh;
+    margin: 1vh;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+.cover_player{
+    margin-top: 5px;
+    width: 40vh;
+    opacity: 1;
 }
