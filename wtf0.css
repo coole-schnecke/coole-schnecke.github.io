@@ -325,18 +325,24 @@ button{
 }
 audio{
     width: 40vh;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .player{
     display: inline-block;
     width: 45vh;
     margin: 1vh;
-    background: rgba(0, 0, 0, 0.7);
-    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
 }
 .cover_player{
-    margin-top: 5px;
+    
     width: 40vh;
     opacity: 1;
+    border-radius: 5px;
+}
+.songtitel{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 7px;
 }
