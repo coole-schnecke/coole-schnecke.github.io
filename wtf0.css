@@ -344,5 +344,9 @@ audio{
 .songtitel{
     text-align: center;
     font-size: 20px;
-    margin-top: 7px;
+    margin-top: 10px;
+}
+.unreleased{
+    margin-bottom: 10px;
+    text-align: center;
 }
