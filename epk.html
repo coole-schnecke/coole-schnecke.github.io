@@ -149,15 +149,35 @@
 
         <hr class="hrKlein"></hr>
         
-        <img id="eli1" src="eli1.jpg" alt="">
-        <img id="eli2" src="eli2.jpg" alt="">
 
-        <img id="sw1" src="sw1.JPG" alt="">
-        <img id="sw2" src="sw2.JPG" alt="">
+        <div class="image_container">
+            <img id="eli1" src="eli1.jpg" alt="">
+            <img id="eli2" src="eli2.jpg" alt="">
 
-        <img id="jump" src="jump.jpg" alt="">
-        <img id="limo" src="limo.png" alt="">
+            <img id="sw1" src="sw1.JPG" alt="">
+            <img id="sw2" src="sw2.JPG" alt="">
+
+            <img id="jump" src="jump.jpg" alt="">
+            <img id="limo" src="limo.png" alt="">
+
+            <div class="popup_image">
+                <span>&times;</span>
+                <img src="eli1.jpg" alt="">
+            </div>
+        </div>
+
+
+        
         <!-- bilder und videos -->
+
+
+        
+
+
+
+
+
+
 
 
 
@@ -208,6 +228,19 @@
         <p class="copyright">&copy; Welcome To Future</p>
     </div>
 
+
+    <script>
+        document.querySelectorAll('.image_container img').forEach(image =>{
+            image.onclick = () => {
+                document.querySelector('.popup_image').style.display = 'block';
+                document.querySelector('.popup_image img').src = image.getAttribute('src');
+            }           
+        })
+        document.querySelector('.popup_image span').onclick = () =>{
+            document.querySelector('.popup_image').style.display = 'none';
+        }
+
+    </script>
         
 
 
