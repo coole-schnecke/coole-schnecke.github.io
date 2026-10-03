@@ -397,6 +397,14 @@ audio{
 }
 
 
+.collage{
+    transition: all 0.25s ease-in-out;
+}
+.collage:hover{
+    scale: 1.02;
+    rotate: 1deg;
+}
+
 #eli1{
     margin-right: 1%;
     width: 65.75%;
