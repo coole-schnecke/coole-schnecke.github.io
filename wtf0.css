@@ -451,6 +451,9 @@ audio{
     margin-top: 1%;
 }
 
+
+
+
 .popup_image{
     position:fixed;
     top: 0;
@@ -474,10 +477,9 @@ audio{
     position: absolute;
     top: 50%; left: 50%;
     transform: translate(-50%, -50%);
-    width: 90vmin;
-    height: auto;
+    max-width: 90%;
     max-height: 90%;
     width: auto;
-    
-    
+    height: auto;
+
 }
