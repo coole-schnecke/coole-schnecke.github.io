@@ -347,7 +347,7 @@ button{
 audio{
     width: 40vh;
     max-width: 70vw;
-    min-width: 260px;
+    min-width: 220px;
     margin-bottom: 10px;
 }
 
@@ -355,7 +355,7 @@ audio{
     display: inline-block;
     width: 45vh;
     max-width: 80vw;
-    min-width: 300px;
+    min-width: 250px;
     margin: 1vh;
     margin-bottom: 10;
     background: rgba(0, 0, 0, 0.8);
@@ -366,7 +366,7 @@ audio{
     display: inline-block;
     width: 40vh;
     max-width: 70vw;
-    min-width: 260px;
+    min-width: 220px;
     margin: 1vh;
     background: rgba(170, 0, 26, 0.8);
     margin-top: 0;
@@ -378,7 +378,7 @@ audio{
     
     width: 40vh;
     max-width: 70vw;
-    min-width: 260px;
+    min-width: 220px;
     opacity: 1;
     border-radius: 5px;
 }
