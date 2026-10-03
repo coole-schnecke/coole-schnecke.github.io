@@ -345,9 +345,9 @@ button{
     
 }
 audio{
-    width: 40vh;
+    width: 40.5vh;
     max-width: 70vw;
-    min-width: 220px;
+    min-width: 225px;
     margin-bottom: 10px;
 }
 
@@ -364,9 +364,9 @@ audio{
 }
 .player_rot{
     display: inline-block;
-    width: 40vh;
+    width: 40.5vh;
     max-width: 70vw;
-    min-width: 220px;
+    min-width: 225px;
     margin: 1vh;
     background: rgba(170, 0, 26, 0.8);
     margin-top: 0;
@@ -376,9 +376,9 @@ audio{
 
 .cover_player{
     
-    width: 40vh;
+    width: 40.5vh;
     max-width: 70vw;
-    min-width: 220px;
+    min-width: 225px;
     opacity: 1;
     border-radius: 5px;
 }
