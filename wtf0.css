@@ -472,6 +472,7 @@ audio{
     color: #fff;
     cursor: pointer;
     z-index: 100;
+    filter: drop-shadow(-4px 4px 10px black)
 }
 .popup_image img{
     position: absolute;
