@@ -36,13 +36,6 @@ video{
     max-width: 100vh;
     height: auto;
 }
-iframe{
-    display: block;
-    margin: 0 auto;
-    width: 85vw;
-    max-width: 100vh;
-    height: auto;
-}
 .halbgroß{
     width: 49%;
     display: inline-block;
@@ -114,6 +107,9 @@ p{
     margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+.margin-bottom{
+    margin-bottom: 5px;
 }
 hr{
     width: 90vw;
@@ -497,5 +493,9 @@ audio{
     max-height: 90%;
     width: auto;
     height: auto;
-
+}
+.youtube{
+    aspect-ratio: 16/9;
+    width: 85vw;
+    max-width: 100vh;
 }
