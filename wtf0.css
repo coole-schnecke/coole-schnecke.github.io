@@ -36,6 +36,13 @@ video{
     max-width: 100vh;
     height: auto;
 }
+iframe{
+    display: block;
+    margin: 0 auto;
+    width: 85vw;
+    max-width: 100vh;
+    height: auto;
+}
 .halbgroß{
     width: 49%;
     display: inline-block;
